@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aziz Nader Aziz Zaki - C# .NET Developer | ASP.NET Core Developer | Full-Stack Software Engineer</title>
+    <meta name="description" content="Aziz Nader - Results-Driven .NET Developer specializing in ASP.NET Core, C#, EF Core, REST APIs, and SQL Server.">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💻</text></svg>">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/styles.css">
+</head>
+<body>
+    <canvas id="particle-canvas"></canvas>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Aziz Nader</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#activities">Activities</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h1>Aziz Nader Aziz Zaki</h1>
+                    <h2 class="dynamic-title"><span class="typed-title"></span></h2>
+                    <p class="hero-subtitle" id="dynamic-subtitle"></p>
+                    <div class="hero-links">
+                        <a href="https://github.com/AzizNader1" class="btn btn-outline-light" target="_blank"><i class="fab fa-github me-1"></i> GitHub</a>
+                        <a href="https://www.linkedin.com/in/aziznader/" class="btn btn-outline-light" target="_blank"><i class="fab fa-linkedin me-1"></i> LinkedIn</a>
+                        <a href="https://drive.google.com/file/d/1Jt5LSUDr2NlYBKuP3l8oL9QlGjnaBTUY/view?usp=sharing" class="btn btn-outline-light" target="_blank"><i class="fas fa-file-alt me-1"></i> My CV</a>
+                        <a href="#contact" class="btn btn-primary"><i class="fas fa-envelope me-1"></i> Contact Me</a>
+                    </div>
+                </div>
+                <div class="col-lg-6 text-center">
+                    <div class="profile-image-container">
+                        <img src="My Image.jpg" alt="Aziz Nader" class="profile-image img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-5">
+        <div class="container">
+            <h2 class="section-title reveal">About Me</h2>
+            <div class="row">
+                <div class="col-lg-6 reveal reveal-delay-1">
+                    <h3 class="section-subtitle mb-4">Results-Driven .NET Developer</h3>
+                    <p>Results-Driven .NET Developer with a BIS foundation and a proven record of engineering high-performance, secure, and scalable web systems. Excellent in ASP.NET Core, C#, EF Core, REST APIs, and SQL Server optimization, consistently delivering measurable gains in speed, efficiency, and system reliability.</p>
+                    <p>Brings full-stack versatility with strong front-end capabilities, including responsive interfaces and real-time, event-driven features built with JavaScript and AJAX. A results-driven engineer who delivers production-ready solutions ahead of schedule.</p>
+                </div>
+                <div class="col-lg-6 reveal reveal-delay-2">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Professional Highlights</h5>
+                            <ul class="list-unstyled professional-highlights">
+                                <li><i class="fas fa-graduation-cap text-primary"></i><div><strong>Academic Excellence</strong><span>BIS Graduate, Assiut University (GPA: 3.84/4.0)</span></div></li>
+                                <li><i class="fas fa-code text-primary"></i><div><strong>Technical Leadership</strong><span>Led 4+ Enterprise-Scale Projects</span></div></li>
+                                <li><i class="fas fa-users text-primary"></i><div><strong>Community Leadership</strong><span>Tech Club Vice President & Mentor</span></div></li>
+                                <li><i class="fas fa-chart-line text-primary"></i><div><strong>Performance Optimization</strong><span>25% System Efficiency Improvement</span></div></li>
+                                <li><i class="fas fa-trophy text-primary"></i><div><strong>Client Success</strong><span>100% Satisfaction Rate Across Projects</span></div></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="section-title reveal">Education</h2>
+            <div class="row justify-content-center">
+                <div class="col-lg-8 reveal reveal-delay-1">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Bachelor of Business Information Systems (BIS)</h5>
+                            <h6 class="card-subtitle mb-2">Faculty of Commerce, Assiut University</h6>
+                            <div class="academic-achievements">
+                                <p class="card-text">
+                                    <i class="fas fa-graduation-cap me-2"></i><strong>Class of July 2024</strong><br>
+                                    <i class="fas fa-star me-2"></i><strong>GPA: 3.84/4.0</strong> — Excellence Grade
+                                </p>
+                                <div class="achievements mb-4">
+                                    <span class="badge bg-success">GPA: 3.84/4.0</span>
+                                    <span class="badge bg-primary">Excellence Grade</span>
+                                    <span class="badge bg-info">Bachelor's Degree</span>
+                                </div>
+                            </div>
+                            <div class="specialized-coursework mb-4">
+                                <h6 class="mb-3">Relevant Courses</h6>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <ul class="list-unstyled">
+                                            <li><i class="fas fa-check text-success me-2"></i>Software Engineering</li>
+                                            <li><i class="fas fa-check text-success me-2"></i>Database Management</li>
+                                            <li><i class="fas fa-check text-success me-2"></i>Web Development</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <ul class="list-unstyled">
+                                            <li><i class="fas fa-check text-success me-2"></i>Project Management</li>
+                                            <li><i class="fas fa-check text-success me-2"></i>Algorithms & Data Structures</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section — Carousel -->
+    <section id="experience" class="py-5">
+        <div class="container">
+            <h2 class="section-title reveal">Work Experience</h2>
+            <div class="carousel-wrapper reveal" data-carousel>
+                <button class="carousel-arrow prev" aria-label="Previous"><i class="fas fa-chevron-left"></i></button>
+                <button class="carousel-arrow next" aria-label="Next"><i class="fas fa-chevron-right"></i></button>
+                <div class="carousel-viewport">
+                    <div class="carousel-slide active">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">.NET Developer (Freelance)</h5>
+                                <h6 class="card-subtitle mb-2">Enterprise Auction Platform</h6>
+                                <p class="card-text text-muted">April 2024 - July 2024</p>
+                                <ul class="list-unstyled">
+                                    <li><i class="fas fa-check text-success"></i> Architected full-stack enterprise auction platform using ASP.NET Core MVC, EF Core, SQL Server — 100+ concurrent users, 99.9% uptime</li>
+                                    <li><i class="fas fa-check text-success"></i> Implemented secure authentication and RBAC using ASP.NET Identity across 3 role levels</li>
+                                    <li><i class="fas fa-check text-success"></i> Engineered real-time bidding with AJAX/JavaScript, reducing page refresh latency</li>
+                                    <li><i class="fas fa-check text-success"></i> Optimized SQL Server queries with LINQ best practices — 25% faster data retrieval</li>
+                                    <li><i class="fas fa-check text-success"></i> Delivered 2 weeks ahead of deadline, 100% client satisfaction</li>
+                                </ul>
+                                <div class="tech-stack">
+                                    <span class="badge bg-primary">ASP.NET Core</span><span class="badge bg-primary">C#</span><span class="badge bg-primary">EF Core</span><span class="badge bg-primary">SQL Server</span><span class="badge bg-primary">JavaScript</span><span class="badge bg-primary">AJAX</span>
+                                </div>
+                                <div class="repo-link mt-3">
+                                    <a href="https://github.com/AzizNader1/Online-Auction-Website" class="btn btn-outline-primary repo-btn" target="_blank"><i class="fab fa-github"></i> Repository</a>
+                                    <a href="http://mybiddingsite.runasp.net/Home/HomePage" class="btn btn-outline-success repo-btn" target="_blank"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-slide">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Frontend Developer (Freelance)</h5>
+                                <h6 class="card-subtitle mb-2">Portfolio Website</h6>
+                                <p class="card-text text-muted">October 2024 - November 2024</p>
+                                <ul class="list-unstyled">
+                                    <li><i class="fas fa-check text-success"></i> Designed responsive portfolio with HTML5, CSS3, JavaScript, Bootstrap — mobile-first</li>
+                                    <li><i class="fas fa-check text-success"></i> 100% cross-browser compatibility across Chrome, Firefox, Safari, Edge</li>
+                                    <li><i class="fas fa-check text-success"></i> Performance optimization with minified assets & lazy loading — 15% faster loads</li>
+                                    <li><i class="fas fa-check text-success"></i> Interactive contact form with client-side validation and AJAX submission</li>
+                                    <li><i class="fas fa-check text-success"></i> Delivered 1 week ahead of schedule, 100% client satisfaction</li>
+                                </ul>
+                                <div class="tech-stack">
+                                    <span class="badge bg-primary">HTML5</span><span class="badge bg-primary">CSS3</span><span class="badge bg-primary">JavaScript</span><span class="badge bg-primary">Bootstrap</span><span class="badge bg-primary">AJAX</span>
+                                </div>
+                                <div class="repo-link mt-3">
+                                    <a href="https://github.com/AzizNader1/My-Portfolio" class="btn btn-outline-primary repo-btn" target="_blank"><i class="fab fa-github"></i> Repository</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-counter"><span class="current">1</span> / <span class="total">2</span></div>
+                <div class="carousel-dots"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section — Tabbed Grid -->
+    <section id="skills" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="section-title reveal">Technical Skills</h2>
+            <div class="skills-section-inner reveal">
+                <!-- Category Tabs -->
+                <div class="skills-tabs">
+                    <button class="skills-tab active" data-target="skills-backend"><i class="fas fa-server"></i> Backend</button>
+                    <button class="skills-tab" data-target="skills-frontend"><i class="fas fa-palette"></i> Frontend & Database</button>
+                    <button class="skills-tab" data-target="skills-tools"><i class="fas fa-toolbox"></i> Tools & Others</button>
+                </div>
+
+                <!-- Backend Panel -->
+                <div class="skills-panel active" id="skills-backend">
+                    <div class="skills-grid">
+                        <div class="skill-tile"><i class="fab fa-microsoft"></i><span>.NET Core</span></div>
+                        <div class="skill-tile"><i class="fas fa-code"></i><span>C#</span></div>
+                        <div class="skill-tile"><i class="fas fa-server"></i><span>ASP.NET MVC</span></div>
+                        <div class="skill-tile"><i class="fas fa-plug"></i><span>RESTful APIs</span></div>
+                        <div class="skill-tile"><i class="fas fa-database"></i><span>EF Core</span></div>
+                        <div class="skill-tile"><i class="fas fa-filter"></i><span>LINQ</span></div>
+                        <div class="skill-tile"><i class="fas fa-signal"></i><span>SignalR</span></div>
+                        <div class="skill-tile"><i class="fas fa-building"></i><span>Clean Architecture</span></div>
+                        <div class="skill-tile"><i class="fas fa-layer-group"></i><span>DDD</span></div>
+                        <div class="skill-tile"><i class="fas fa-broom"></i><span>Clean Code</span></div>
+                        <div class="skill-tile"><i class="fas fa-exchange-alt"></i><span>CQRS</span></div>
+                        <div class="skill-tile"><i class="fas fa-cubes"></i><span>SOLID</span></div>
+                        <div class="skill-tile"><i class="fas fa-sitemap"></i><span>Design Patterns</span></div>
+                        <div class="skill-tile"><i class="fas fa-project-diagram"></i><span>Data Structures</span></div>
+                        <div class="skill-tile"><i class="fas fa-brain"></i><span>Algorithms</span></div>
+                    </div>
+                </div>
+
+                <!-- Frontend & Database Panel -->
+                <div class="skills-panel" id="skills-frontend">
+                    <div class="skills-grid">
+                        <div class="skill-tile"><i class="fab fa-html5"></i><span>HTML5</span></div>
+                        <div class="skill-tile"><i class="fab fa-css3-alt"></i><span>CSS3</span></div>
+                        <div class="skill-tile"><i class="fab fa-js"></i><span>JavaScript</span></div>
+                        <div class="skill-tile"><i class="fas fa-bolt"></i><span>AJAX</span></div>
+                        <div class="skill-tile"><i class="fab fa-bootstrap"></i><span>Bootstrap</span></div>
+                        <div class="skill-tile"><i class="fas fa-database"></i><span>SQL Server</span></div>
+                        <div class="skill-tile"><i class="fas fa-database"></i><span>SQLite</span></div>
+                        <div class="skill-tile"><i class="fas fa-cogs"></i><span>Fluent API</span></div>
+                        <div class="skill-tile"><i class="fas fa-drafting-compass"></i><span>DB Design</span></div>
+                        <div class="skill-tile"><i class="fas fa-tachometer-alt"></i><span>Query Optimization</span></div>
+                    </div>
+                </div>
+
+                <!-- Tools & Others Panel -->
+                <div class="skills-panel" id="skills-tools">
+                    <div class="skills-grid">
+                        <div class="skill-tile"><i class="fab fa-git-alt"></i><span>Git</span></div>
+                        <div class="skill-tile"><i class="fab fa-github"></i><span>GitHub</span></div>
+                        <div class="skill-tile"><i class="fas fa-laptop-code"></i><span>Visual Studio</span></div>
+                        <div class="skill-tile"><i class="fas fa-code"></i><span>VS Code</span></div>
+                        <div class="skill-tile"><i class="fas fa-paper-plane"></i><span>Postman</span></div>
+                        <div class="skill-tile"><i class="fas fa-mouse-pointer"></i><span>Cursor</span></div>
+                        <div class="skill-tile"><i class="fas fa-robot"></i><span>Copilot</span></div>
+                        <div class="skill-tile"><i class="fab fa-python"></i><span>Python</span></div>
+                        <div class="skill-tile"><i class="fab fa-java"></i><span>Java</span></div>
+                        <div class="skill-tile"><i class="fas fa-sync-alt"></i><span>Agile</span></div>
+                        <div class="skill-tile"><i class="fas fa-puzzle-piece"></i><span>Problem Solving</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section — Carousel -->
+    <section id="projects" class="py-5">
+        <div class="container">
+            <h2 class="section-title reveal">Featured Projects</h2>
+            <div class="carousel-wrapper reveal" data-carousel>
+                <button class="carousel-arrow prev" aria-label="Previous"><i class="fas fa-chevron-left"></i></button>
+                <button class="carousel-arrow next" aria-label="Next"><i class="fas fa-chevron-right"></i></button>
+                <div class="carousel-viewport">
+                    <!-- P1 -->
+                    <div class="carousel-slide active">
+                        <div class="card"><div class="card-body">
+                            <h5 class="card-title">E-Commerce Platform</h5>
+                            <p class="card-text text-muted"><i class="fas fa-calendar-alt me-1"></i>Feb 2026 – Mar 2026</p>
+                            <ul class="list-unstyled">
+                                <li><i class="fas fa-check-circle text-success me-2"></i>Full-stack e-commerce with ASP.NET Core 9.0 Web API + MVC, Repository + UoW + Service Layer, Clean Architecture</li>
+                                <li><i class="fas fa-check-circle text-success me-2"></i>JWT + OTP two-factor auth with ASP.NET Identity</li>
+                                <li><i class="fas fa-check-circle text-success me-2"></i>Complete shopping cart, checkout, order history workflow</li>
+                                <li><i class="fas fa-check-circle text-success me-2"></i>RBAC admin dashboard for product, order, user management</li>
+                                <li><i class="fas fa-check-circle text-success me-2"></i>Complex EF Core query optimization and data consistency fixes</li>
+                            </ul>
+                            <div class="tech-stack"><span class="badge bg-primary">ASP.NET Core</span><span class="badge bg-primary">C#</span><span class="badge bg-primary">EF Core</span><span class="badge bg-primary">SQL Server</span><span class="badge bg-primary">REST APIs</span></div>
+                            <div class="repo-link mt-3">
+                                <a href="https://github.com/AzizNader1/E-Commerce" class="btn btn-outline-primary repo-btn" target="_blank"><i class="fab fa-github"></i> Repository</a>
+                                <a href="http://mycommerce.runasp.net/" class="btn btn-outline-success repo-btn" target="_blank"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                            </div>
+                        </div></div>
+                    </div>
+                    <!-- P2 -->
+                    <div class="carousel-slide">
+                        <div class="card"><div class="card-body">
+                            <h5 class="card-title">C# Problem-Solving Repository</h5>
+                            <p class="card-text text-muted"><i class="fas fa-calendar-alt me-1"></i>Sep 2024 - Dec 2024</p>
+                            <p class="card-text"><strong>70+ production-ready C# solutions</strong> with time/space complexity analysis and optimization strategies.</p>
+                            <ul class="list-unstyled">
+                                <li><i class="fas fa-check-circle text-success me-2"></i>Sorting/searching, LINQ optimization, design pattern implementations</li>
+                                <li><i class="fas fa-check-circle text-success me-2"></i>Edge case handling, error management, scalability analysis</li>
+                                <li><i class="fas fa-check-circle text-success me-2"></i>Performance benchmarks and alternative approaches</li>
+                                <li><i class="fas fa-check-circle text-success me-2"></i>Targeting 200+ solutions by Q4 2026</li>
+                            </ul>
+                            <div class="tech-stack"><span class="badge bg-primary">C#</span><span class="badge bg-primary">Algorithms</span><span class="badge bg-primary">Data Structures</span><span class="badge bg-primary">.NET</span><span class="badge bg-primary">LINQ</span></div>
+                            <div class="repo-link mt-3">
+                                <a href="https://github.com/AzizNader1/CSharpProblemsWithSolutions" class="btn btn-outline-primary repo-btn" target="_blank"><i class="fab fa-github"></i> Repository</a>
+                                <span class="badge bg-info">Ongoing</span>
+                            </div>
+                        </div></div>
+                    </div>
+                    <!-- P3 -->
+                    <div class="carousel-slide">
+                        <div class="card"><div class="card-body">
+                            <h5 class="card-title">7asad — Graduation Project</h5>
+                            <p class="card-text text-muted"><i class="fas fa-calendar-alt me-1"></i>Jan 2024 - Jul 2024 | Capstone</p>
+                            <p class="card-text"><strong>Agricultural Technology Platform</strong> connecting stakeholders through intelligent matching and real-time communication.</p>
+                            <ul class="list-unstyled">
+                                <li><i class="fas fa-check-circle text-success me-2"></i>ASP.NET Core MVC with clean architecture, DI, separation of concerns</li>
+                                <li><i class="fas fa-check-circle text-success me-2"></i>EF Core Code-First, Fluent API, repository pattern</li>
+                                <li><i class="fas fa-check-circle text-success me-2"></i>JWT auth, DTOs, middleware pipeline, error handling</li>
+                                <li><i class="fas fa-check-circle text-success me-2"></i>25% faster data retrieval, RBAC, secure sessions</li>
+                                <li><i class="fas fa-check-circle text-success me-2"></i>200+ DAU, 99.5% uptime, sub-200ms response</li>
+                            </ul>
+                            <div class="tech-stack"><span class="badge bg-primary">ASP.NET Core</span><span class="badge bg-primary">C#</span><span class="badge bg-primary">EF Core</span><span class="badge bg-primary">SQL Server</span><span class="badge bg-primary">REST APIs</span></div>
+                            <div class="repo-link mt-3"><a href="https://github.com/AzizNader1/7asad_Graduation_Project" class="btn btn-outline-primary repo-btn" target="_blank"><i class="fab fa-github"></i> Repository</a></div>
+                        </div></div>
+                    </div>
+                    <!-- P4 -->
+                    <div class="carousel-slide">
+                        <div class="card"><div class="card-body">
+                            <h5 class="card-title">Game Zone — Gaming Website</h5>
+                            <p class="card-text text-muted"><i class="fas fa-calendar-alt me-1"></i>Jul 2022 - Sep 2022</p>
+                            <p class="card-text"><strong>Digital Gaming Distribution Platform</strong> with secure user management and high-performance search.</p>
+                            <ul class="list-unstyled">
+                                <li><i class="fas fa-check-circle text-success me-2"></i>ASP.NET Identity supporting 150+ users with account lockout policies</li>
+                                <li><i class="fas fa-check-circle text-success me-2"></i>Dynamic CMS with CRUD, metadata validation — 98% accuracy</li>
+                                <li><i class="fas fa-check-circle text-success me-2"></i>AJAX search with debouncing & lazy loading — 20% faster</li>
+                                <li><i class="fas fa-check-circle text-success me-2"></i>Normalized 3NF SQL Server schema with EF Code-First</li>
+                            </ul>
+                            <div class="tech-stack"><span class="badge bg-primary">ASP.NET Core</span><span class="badge bg-primary">C#</span><span class="badge bg-primary">JavaScript</span><span class="badge bg-primary">SQL Server</span></div>
+                            <div class="repo-link mt-3"><a href="https://github.com/AzizNader1/GamingWebsite" class="btn btn-outline-primary repo-btn" target="_blank"><i class="fab fa-github"></i> Repository</a></div>
+                        </div></div>
+                    </div>
+                    <!-- P5 -->
+                    <div class="carousel-slide">
+                        <div class="card"><div class="card-body">
+                            <h5 class="card-title">University Grant Management System</h5>
+                            <p class="card-text text-muted"><i class="fas fa-calendar-alt me-1"></i>Jul 2023 - Sep 2023 | Enterprise</p>
+                            <p class="card-text"><strong>Workflow Automation Platform</strong> — digitizing manual grant applications into automated workflows.</p>
+                            <ul class="list-unstyled">
+                                <li><i class="fas fa-check-circle text-success me-2"></i>RESTful API with OAuth 2.0, serving 500+ concurrent users</li>
+                                <li><i class="fas fa-check-circle text-success me-2"></i>40% reduction in application processing time</li>
+                                <li><i class="fas fa-check-circle text-success me-2"></i>300+ applications/month with audit logging</li>
+                                <li><i class="fas fa-check-circle text-success me-2"></i>35% reduced administrative overhead</li>
+                            </ul>
+                            <div class="tech-stack"><span class="badge bg-primary">ASP.NET Core</span><span class="badge bg-primary">Web API</span><span class="badge bg-primary">EF Core</span><span class="badge bg-primary">SQL Server</span></div>
+                            <div class="repo-link mt-3"><a href="https://github.com/MKOMohammed/SRM" class="btn btn-outline-primary repo-btn" target="_blank"><i class="fab fa-github"></i> Repository</a></div>
+                        </div></div>
+                    </div>
+                    <!-- P6 -->
+                    <div class="carousel-slide">
+                        <div class="card"><div class="card-body">
+                            <h5 class="card-title">Library Web Store</h5>
+                            <p class="card-text text-muted"><i class="fas fa-calendar-alt me-1"></i>E-Commerce Project</p>
+                            <p class="card-text"><strong>Online Bookstore</strong> with payment processing and real-time inventory management.</p>
+                            <ul class="list-unstyled">
+                                <li><i class="fas fa-check-circle text-success me-2"></i>Shopping cart, catalog, order management with ASP.NET Core MVC</li>
+                                <li><i class="fas fa-check-circle text-success me-2"></i>Real-time stock tracking — 30% faster stock checks</li>
+                                <li><i class="fas fa-check-circle text-success me-2"></i>PCI-DSS compliant payment integration</li>
+                                <li><i class="fas fa-check-circle text-success me-2"></i>200+ monthly transactions with atomic operations</li>
+                            </ul>
+                            <div class="tech-stack"><span class="badge bg-primary">.NET Core</span><span class="badge bg-primary">C#</span><span class="badge bg-primary">SQL Server</span><span class="badge bg-primary">Payment Gateway</span></div>
+                            <div class="repo-link mt-3"><a href="https://github.com/AzizNader1/Online_Library_Store" class="btn btn-outline-primary repo-btn" target="_blank"><i class="fab fa-github"></i> Repository</a></div>
+                        </div></div>
+                    </div>
+                    <!-- P7 -->
+                    <div class="carousel-slide">
+                        <div class="card"><div class="card-body">
+                            <h5 class="card-title">Advanced Calculator Web App</h5>
+                            <p class="card-text text-muted"><i class="fas fa-calendar-alt me-1"></i>Frontend Project</p>
+                            <ul class="list-unstyled">
+                                <li><i class="fas fa-check-circle text-success me-2"></i>Scientific calculator: trigonometric, logarithmic, exponential functions</li>
+                                <li><i class="fas fa-check-circle text-success me-2"></i>LocalStorage history with export functionality</li>
+                                <li><i class="fas fa-check-circle text-success me-2"></i>Mobile-first responsive with CSS Grid & Flexbox</li>
+                                <li><i class="fas fa-check-circle text-success me-2"></i>WCAG 2.1 accessibility, keyboard support</li>
+                            </ul>
+                            <div class="tech-stack"><span class="badge bg-primary">HTML5</span><span class="badge bg-primary">CSS3</span><span class="badge bg-primary">JavaScript</span></div>
+                            <div class="repo-link mt-3">
+                                <a href="https://github.com/AzizNader1/SimpleCalculator" class="btn btn-outline-primary repo-btn" target="_blank"><i class="fab fa-github"></i> Repository</a>
+                                <a href="https://aziznader1.github.io/SimpleCalculator/" class="btn btn-outline-success repo-btn" target="_blank"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                            </div>
+                        </div></div>
+                    </div>
+                    <!-- P8 -->
+                    <div class="carousel-slide">
+                        <div class="card"><div class="card-body">
+                            <h5 class="card-title">Real-Time Currency Converter</h5>
+                            <p class="card-text text-muted"><i class="fas fa-calendar-alt me-1"></i>Frontend Project</p>
+                            <ul class="list-unstyled">
+                                <li><i class="fas fa-check-circle text-success me-2"></i>RESTful currency exchange APIs with automatic rate updates</li>
+                                <li><i class="fas fa-check-circle text-success me-2"></i>150+ global currencies with localized formatting</li>
+                                <li><i class="fas fa-check-circle text-success me-2"></i>Interactive historical rate charts with Chart.js</li>
+                                <li><i class="fas fa-check-circle text-success me-2"></i>Material Design UI with smooth animations</li>
+                            </ul>
+                            <div class="tech-stack"><span class="badge bg-primary">HTML5</span><span class="badge bg-primary">CSS3</span><span class="badge bg-primary">JavaScript</span><span class="badge bg-primary">REST API</span></div>
+                            <div class="repo-link mt-3">
+                                <a href="https://github.com/AzizNader1/Currency_Converter_Website" class="btn btn-outline-primary repo-btn" target="_blank"><i class="fab fa-github"></i> Repository</a>
+                                <a href="https://aziznader1.github.io/Currency_Converter_Website/" class="btn btn-outline-success repo-btn" target="_blank"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                            </div>
+                        </div></div>
+                    </div>
+                    <!-- P9 -->
+                    <div class="carousel-slide">
+                        <div class="card"><div class="card-body">
+                            <h5 class="card-title">Professional Chess Game</h5>
+                            <p class="card-text text-muted"><i class="fas fa-calendar-alt me-1"></i>Full-Stack Project</p>
+                            <ul class="list-unstyled">
+                                <li><i class="fas fa-check-circle text-success me-2"></i>FIDE-compliant rules: castling, en passant, promotion, checkmate</li>
+                                <li><i class="fas fa-check-circle text-success me-2"></i>PvP, AI with multiple difficulty levels, tournament brackets</li>
+                                <li><i class="fas fa-check-circle text-success me-2"></i>Blitz, rapid, classical time controls with increment</li>
+                                <li><i class="fas fa-check-circle text-success me-2"></i>Algebraic notation, position analysis, game replay</li>
+                            </ul>
+                            <div class="tech-stack"><span class="badge bg-primary">TypeScript</span><span class="badge bg-primary">React</span><span class="badge bg-primary">CSS3</span><span class="badge bg-primary">AI</span></div>
+                            <div class="repo-link mt-3">
+                                <a href="https://github.com/AzizNader1/Professional-Chess-Game" class="btn btn-outline-primary repo-btn" target="_blank"><i class="fab fa-github"></i> Repository</a>
+                                <a href="https://rilbccct.manus.space" class="btn btn-outline-success repo-btn" target="_blank"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                            </div>
+                        </div></div>
+                    </div>
+                    <!-- P10 -->
+                    <div class="carousel-slide">
+                        <div class="card"><div class="card-body">
+                            <h5 class="card-title">C# Programming Education Platform</h5>
+                            <p class="card-text text-muted"><i class="fas fa-calendar-alt me-1"></i>Educational Project</p>
+                            <ul class="list-unstyled">
+                                <li><i class="fas fa-check-circle text-success me-2"></i>Interactive tutorials with live code execution & syntax highlighting</li>
+                                <li><i class="fas fa-check-circle text-success me-2"></i>Memory management, generics, delegates, events deep dives</li>
+                                <li><i class="fas fa-check-circle text-success me-2"></i>Progressive curriculum: beginner to design patterns & DI</li>
+                            </ul>
+                            <div class="tech-stack"><span class="badge bg-primary">C#</span><span class="badge bg-primary">.NET</span><span class="badge bg-primary">HTML/CSS</span><span class="badge bg-primary">JavaScript</span></div>
+                            <div class="repo-link mt-3">
+                                <a href="https://github.com/AzizNader1/CSharp-Programming-Language" class="btn btn-outline-primary repo-btn" target="_blank"><i class="fab fa-github"></i> Repository</a>
+                                <a href="https://aziznader1.github.io/CSharp-Programming-Language/" class="btn btn-outline-success repo-btn" target="_blank"><i class="fas fa-globe"></i> Live Demo</a>
+                            </div>
+                        </div></div>
+                    </div>
+                    <!-- P11 -->
+                    <div class="carousel-slide">
+                        <div class="card"><div class="card-body">
+                            <h5 class="card-title">SOLID Principles Education Platform</h5>
+                            <p class="card-text text-muted"><i class="fas fa-calendar-alt me-1"></i>Educational Project</p>
+                            <ul class="list-unstyled">
+                                <li><i class="fas fa-check-circle text-success me-2"></i>All 5 SOLID principles with before/after code comparisons</li>
+                                <li><i class="fas fa-check-circle text-success me-2"></i>Enterprise scenarios with repository patterns & DI</li>
+                                <li><i class="fas fa-check-circle text-success me-2"></i>Quiz system with scenario-based questions</li>
+                            </ul>
+                            <div class="tech-stack"><span class="badge bg-primary">C#</span><span class="badge bg-primary">SOLID</span><span class="badge bg-primary">OOD</span></div>
+                            <div class="repo-link mt-3">
+                                <a href="https://github.com/AzizNader1/CSharp-SOLID-Principles" class="btn btn-outline-primary repo-btn" target="_blank"><i class="fab fa-github"></i> Repository</a>
+                                <a href="https://aziznader1.github.io/CSharp-SOLID-Principles/" class="btn btn-outline-success repo-btn" target="_blank"><i class="fas fa-globe"></i> Live Demo</a>
+                            </div>
+                        </div></div>
+                    </div>
+                    <!-- P12 -->
+                    <div class="carousel-slide">
+                        <div class="card"><div class="card-body">
+                            <h5 class="card-title">Design Patterns Education Platform</h5>
+                            <p class="card-text text-muted"><i class="fas fa-calendar-alt me-1"></i>Educational Project</p>
+                            <ul class="list-unstyled">
+                                <li><i class="fas fa-check-circle text-success me-2"></i>23 classic GoF patterns: Creational, Structural, Behavioral</li>
+                                <li><i class="fas fa-check-circle text-success me-2"></i>ASP.NET Core & microservices implementation scenarios</li>
+                                <li><i class="fas fa-check-circle text-success me-2"></i>UML class, sequence, and component diagrams</li>
+                            </ul>
+                            <div class="tech-stack"><span class="badge bg-primary">C#</span><span class="badge bg-primary">Design Patterns</span><span class="badge bg-primary">Architecture</span></div>
+                            <div class="repo-link mt-3">
+                                <a href="https://github.com/AzizNader1/CSharp-Design-Patterns" class="btn btn-outline-primary repo-btn" target="_blank"><i class="fab fa-github"></i> Repository</a>
+                                <a href="https://aziznader1.github.io/CSharp-Design-Patterns/" class="btn btn-outline-success repo-btn" target="_blank"><i class="fas fa-globe"></i> Live Demo</a>
+                            </div>
+                        </div></div>
+                    </div>
+                    <!-- P13 -->
+                    <div class="carousel-slide">
+                        <div class="card"><div class="card-body">
+                            <h5 class="card-title">Data Structures & Algorithms in C#</h5>
+                            <p class="card-text text-muted"><i class="fas fa-calendar-alt me-1"></i>Educational Project</p>
+                            <ul class="list-unstyled">
+                                <li><i class="fas fa-check-circle text-success me-2"></i>Arrays, linked lists, stacks, queues, trees, graphs, hash tables</li>
+                                <li><i class="fas fa-check-circle text-success me-2"></i>Binary search, sorting, BFS, DFS, dynamic programming</li>
+                                <li><i class="fas fa-check-circle text-success me-2"></i>Big O analysis with best/average/worst case scenarios</li>
+                            </ul>
+                            <div class="tech-stack"><span class="badge bg-primary">C#</span><span class="badge bg-primary">DSA</span><span class="badge bg-primary">Algorithms</span></div>
+                            <div class="repo-link mt-3">
+                                <a href="https://github.com/AzizNader1/CSharp-DSA" class="btn btn-outline-primary repo-btn" target="_blank"><i class="fab fa-github"></i> Repository</a>
+                                <a href="https://aziznader1.github.io/CSharp-DSA/" class="btn btn-outline-success repo-btn" target="_blank"><i class="fas fa-globe"></i> Live Demo</a>
+                            </div>
+                        </div></div>
+                    </div>
+                </div>
+                <div class="carousel-counter"><span class="current">1</span> / <span class="total">13</span></div>
+                <div class="carousel-dots"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Activities Section -->
+    <section id="activities" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="section-title reveal">Extracurricular Activities</h2>
+            <div class="row">
+                <div class="col-md-6 mb-4 reveal reveal-delay-1">
+                    <div class="card h-100"><div class="card-body">
+                        <h5 class="card-title">Leadership & Activities</h5>
+                        <ul class="list-unstyled">
+                            <li><i class="fas fa-code text-primary"></i> <strong>Volunteer Code Reviewer:</strong> 20+ code reviews focused on SOLID principles</li>
+                            <li><i class="fas fa-users text-primary"></i> <strong>Tech Club Vice President:</strong> Coding bootcamps engaging 60+ students</li>
+                            <li><i class="fas fa-tasks text-primary"></i> <strong>Agile Team Leader:</strong> Led 3 teams with Scrum methodology</li>
+                        </ul>
+                    </div></div>
+                </div>
+                <div class="col-md-6 mb-4 reveal reveal-delay-2">
+                    <div class="card h-100"><div class="card-body">
+                        <h5 class="card-title">Impact & Achievements</h5>
+                        <ul class="list-unstyled">
+                            <li><i class="fas fa-check-circle text-success"></i> <strong>20+ Code Reviews:</strong> Constructive feedback on SOLID principles</li>
+                            <li><i class="fas fa-check-circle text-success"></i> <strong>60+ Students Engaged:</strong> Organized coding bootcamps</li>
+                            <li><i class="fas fa-check-circle text-success"></i> <strong>3 Successful Teams:</strong> On-time Scrum delivery</li>
+                            <li><i class="fas fa-check-circle text-success"></i> <strong>Technical Excellence:</strong> .NET and web development expertise</li>
+                        </ul>
+                    </div></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5">
+        <div class="container">
+            <h2 class="section-title reveal">Get in Touch</h2>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="row mb-4 reveal reveal-delay-1">
+                        <div class="col-md-4 mb-3">
+                            <div class="card text-center h-100"><div class="card-body">
+                                <i class="fas fa-map-marker-alt text-primary mb-3" style="font-size:2rem;"></i>
+                                <h5 class="card-title">Address</h5>
+                                <p class="card-text">Giza, Egypt</p>
+                            </div></div>
+                        </div>
+                        <div class="col-md-4 mb-3">
+                            <div class="card text-center h-100"><div class="card-body">
+                                <i class="fas fa-phone text-primary mb-3" style="font-size:2rem;"></i>
+                                <h5 class="card-title">Phone</h5>
+                                <p class="card-text"><a href="tel:+201208160641" style="text-decoration:none;color:inherit;">+201208160641</a></p>
+                            </div></div>
+                        </div>
+                        <div class="col-md-4 mb-3">
+                            <div class="card text-center h-100"><div class="card-body">
+                                <i class="fas fa-envelope text-primary mb-3" style="font-size:2rem;"></i>
+                                <h5 class="card-title">Email</h5>
+                                <p class="card-text"><a href="mailto:aziznader555@gmail.com" style="text-decoration:none;color:inherit;">aziznader555@gmail.com</a></p>
+                            </div></div>
+                        </div>
+                    </div>
+                    <div class="row reveal reveal-delay-2">
+                        <div class="col-lg-8 mx-auto">
+                            <form id="contact-form" action="https://formsubmit.co/aziznader555@gmail.com" method="POST">
+                                <input type="hidden" name="_captcha" value="false">
+                                <input type="hidden" name="_subject" value="New message from portfolio visitor">
+                                <div class="mb-3"><label for="name" class="form-label">Name</label><input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required></div>
+                                <div class="mb-3"><label for="email" class="form-label">Email</label><input type="email" name="email" class="form-control" id="email" placeholder="Your Email" required></div>
+                                <div class="mb-3"><label for="message" class="form-label">Message</label><textarea class="form-control" name="message" id="message" rows="3" placeholder="Your Message" required></textarea></div>
+                                <button type="submit" class="btn btn-primary">Send Message</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-4">
+        <div class="container">
+            <div class="footer-socials mb-3">
+                <a href="https://github.com/AzizNader1/AzizNader1" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/aziznader/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            </div>
+            <p class="text-center mb-0">&copy; 2025 Aziz Nader. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <button class="back-to-top" aria-label="Back to top"><i class="fas fa-arrow-up"></i></button>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
